@@ -3,12 +3,9 @@
 const input = require("fs")
   .readFileSync("/dev/stdin")
   .toString()
+  .trim()
   .split(" ")
-  .map((val) => +val);
-const [a, b] = input;
-
-let answer = a / b + "\n";
-
-answer += a % b;
-
+  .map(BigInt);
+let answer = input[0] / input[1] + "\n";
+answer += input[0] % input[1];
 console.log(answer);
