@@ -1,5 +1,4 @@
-// 백준 제출시 "/dev/stdin"
-// VS code    "example.txt"
+// 더하기 사이클
 
 const input = require("fs").readFileSync("example.txt").toString();
 
