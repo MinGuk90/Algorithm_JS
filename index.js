@@ -1,27 +1,11 @@
 // 백준 제출시 "/dev/stdin"
 // VS code    "example.txt"
 
-const input = require("fs").readFileSync("example.txt").toString();
+const input = require("fs")
+  .readFileSync("example.txt")
+  .toString()
+  .trim()
+  .split("\n")
+  .map(Number);
 
-parseInt(input);
-let a = input;
-let count = 0;
-
-while (true) {
-  if (a < 10) {
-    a * 10;
-  }
-
-  let ten = parseInt(a / 10);
-  let one = a % 10;
-
-  let sum = ten + one;
-  let right = sum % 10;
-  count++;
-
-  a = one * 10 + right;
-  if (input == a) {
-    break;
-  }
-}
-console.log(count);
+for (i = 1; i <= input[0]; i++) {}
