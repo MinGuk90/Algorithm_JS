@@ -1,7 +1,7 @@
 //엄청난 부자2
 
 const input = require("fs")
-  .readFileSync("/dev/stdin")
+  .readFileSync("dev/stdin")
   .toString()
   .trim()
   .split(" ")

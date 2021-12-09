@@ -1,7 +1,7 @@
 //저항
 
 const input = require("fs")
-  .readFileSync("/dev/stdin")
+  .readFileSync("dev/stdin")
   .toString()
   .trim()
   .split("\n");

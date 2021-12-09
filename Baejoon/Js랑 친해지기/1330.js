@@ -1,7 +1,7 @@
 //두 수 비교하기
 
 const input = require("fs")
-  .readFileSync("/dev/stdin")
+  .readFileSync("dev/stdin")
   .toString()
   .split(" ")
   .map((val) => +val);

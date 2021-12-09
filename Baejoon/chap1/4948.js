@@ -1,7 +1,7 @@
 //베르트랑 공준
 
 const input = require("fs")
-  .readFileSync("example.txt")
+  .readFileSync("dev/stdin")
   .toString()
   .split("\n")
   .map(Number);

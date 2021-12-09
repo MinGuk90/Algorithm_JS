@@ -1,5 +1,4 @@
-// 백준 제출시 "/dev/stdin"
-// VS code    "example.txt"
+//요세푸스 문제 0
 
 const input = require("fs")
   .readFileSync("dev/stdin")

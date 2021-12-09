@@ -1,6 +1,6 @@
 // 더하기 사이클
 
-const input = require("fs").readFileSync("example.txt").toString();
+const input = require("fs").readFileSync("dev/stdin").toString();
 
 parseInt(input);
 let a = input;

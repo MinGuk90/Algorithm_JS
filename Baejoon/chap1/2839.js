@@ -1,6 +1,6 @@
 //설탕 배달
 
-const input = require("fs").readFileSync("example.txt").toString();
+const input = require("fs").readFileSync("dev/stdin").toString();
 
 let N = Number(input);
 let five = 0;

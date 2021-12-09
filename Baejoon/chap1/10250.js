@@ -1,6 +1,6 @@
 //ACM 호텔
 
-const input = require("fs").readFileSync("example.txt").toString().split("\n");
+const input = require("fs").readFileSync("dev/stdin").toString().split("\n");
 
 for (let i = 1; i <= input[0]; i++) {
   let rooms = input[i].split(" ");

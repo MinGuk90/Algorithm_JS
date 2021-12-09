@@ -1,7 +1,7 @@
 // 제로
 
 const input = require("fs")
-  .readFileSync("example.txt")
+  .readFileSync("dev/stdin")
   .toString()
   .trim()
   .split("\r\n")

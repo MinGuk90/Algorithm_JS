@@ -1,7 +1,7 @@
 // 소수 구하기
 
 const input = require("fs")
-  .readFileSync("example.txt")
+  .readFileSync("dev/stdin")
   .toString()
   .split(" ")
   .map(Number);

@@ -1,7 +1,7 @@
 //오각형, 오각형, 오각형...
 
 const input = require("fs")
-  .readFileSync("example.txt")
+  .readFileSync("dev/stdin")
   .toString()
   .trim()
   .split("\n");

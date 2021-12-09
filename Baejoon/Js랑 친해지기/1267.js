@@ -1,6 +1,6 @@
 //핸드폰 요금
 
-const input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
+const input = require("fs").readFileSync("dev/stdin").toString().split("\n");
 
 let call = input[1].split(" ");
 let YC = 0;

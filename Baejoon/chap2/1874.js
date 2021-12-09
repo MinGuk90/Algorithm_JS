@@ -1,7 +1,7 @@
 //스택 수열
 
 const input = require("fs")
-  .readFileSync("example.txt")
+  .readFileSync("dev/stdin")
   .toString()
   .trim()
   .split("\n")
