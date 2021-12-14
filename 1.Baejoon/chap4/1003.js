@@ -1,5 +1,4 @@
-// 백준 제출시 "/dev/stdin"
-// VS code    "example.txt"
+// 피보나치 함수
 
 const input = require("fs")
   .readFileSync("dev/stdin")
