@@ -1,5 +1,4 @@
-// 백준 제출시 "/dev/stdin"
-// VS code    "example.txt"
+//나무 자르기
 
 const [n, t] = require("fs")
   .readFileSync("./dev/stdin")
